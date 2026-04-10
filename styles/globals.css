@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  @apply bg-white text-black;
+}
+
+a {
+  @apply text-inherit no-underline;
+}
+
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-black;
+}
+
+::selection {
+  @apply bg-black text-white;
+}
+
+@layer utilities {
+  /* Dot-grid hero background */
+  .hero-grid {
+    background-image: radial-gradient(circle, #00000010 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Gradient text utility */
+  .text-gradient {
+    background: linear-gradient(135deg, #000 0%, #555 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Shimmer loading effect */
+  .shimmer-bg {
+    background: linear-gradient(
+      90deg,
+      #f0f0f0 0px,
+      #fafafa 40px,
+      #f0f0f0 80px
+    );
+    background-size: 400px 100%;
+    animation: shimmer 2.5s linear infinite;
+  }
+}

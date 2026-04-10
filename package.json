@@ -1,0 +1,28 @@
+{
+  "name": "huromata-software-website-2026",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/prepare-next-runtime.cjs && node scripts/run-next.cjs dev",
+    "build": "node scripts/prepare-next-runtime.cjs && node scripts/run-next.cjs build",
+    "start": "node scripts/prepare-next-runtime.cjs && node scripts/run-next.cjs start",
+    "lint": "next lint",
+    "clean": "node -e \"const fs=require('fs');const os=require('os');const path=require('path');const target=path.join(os.homedir(),'AppData','Local','HuromataNext');if(!fs.existsSync(target))process.exit(0);for(const name of fs.readdirSync(target)){if(name==='node_modules')continue;fs.rmSync(path.join(target,name),{recursive:true,force:true});}console.log('Cleaned',target);\""
+  },
+  "dependencies": {
+    "next": "^15.5.14",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.10",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "autoprefixer": "10.4.20",
+    "eslint": "9.21.0",
+    "eslint-config-next": "^15.5.14",
+    "postcss": "8.5.3",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.8.2"
+  }
+}
