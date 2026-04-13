@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     "web development",
     "software studio"
   ],
+  icons: {
+    icon: "/favicon.png"
+  },
   openGraph: {
     title: "Huromata | Product Engineering",
     description:
