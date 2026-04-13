@@ -11,6 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.huromata.com"),
   title: {
     default: "Huromata | Product Engineering",
     template: "%s | Huromata"
@@ -28,11 +29,15 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.png"
   },
+  alternates: {
+    canonical: "/"
+  },
   openGraph: {
     title: "Huromata | Product Engineering",
     description:
       "We build SaaS platforms, automation tools, and robotics systems for ambitious teams.",
-    type: "website"
+    type: "website",
+    url: "/"
   }
 };
 

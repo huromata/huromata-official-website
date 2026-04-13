@@ -6,6 +6,8 @@ const footerLinks = {
   Company: [
     { href: "/about", label: "About" },
     { href: "/work", label: "Our Work" },
+    { href: "/careers", label: "Careers / Internship" },
+    { href: "/iso-certificate", label: "ISO Certificate" },
     { href: "/contact", label: "Contact" }
   ],
   Services: [

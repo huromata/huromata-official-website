@@ -1,0 +1,16 @@
+Huromata
+
+Huromata is a product engineering company building SaaS products, business websites,
+automation systems, and robotics solutions.
+
+Key pages:
+- Home: https://www.huromata.com/
+- Services: https://www.huromata.com/services
+- Work: https://www.huromata.com/work
+- About: https://www.huromata.com/about
+- Careers: https://www.huromata.com/careers
+- Contact: https://www.huromata.com/contact
+
+Featured page:
+- AI & Software Development Internship in Coimbatore:
+  https://www.huromata.com/careers
